@@ -4,6 +4,10 @@ Iterative Strategies Architects group is a team formed for participating in Arch
 
 ## Team members
 Matthew Meade 
+
 Agustin Gomes
+
 Vasileios Chroniadis
+
 Bryte Henry
+
