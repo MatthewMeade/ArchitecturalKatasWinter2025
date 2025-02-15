@@ -209,20 +209,106 @@ Considering the rapid evolution of AI technologies and ecosystem, combined with 
 -->
 
 
-# Concepts
+# Croscutting Concepts
+<!-- 
+
+    https://docs.arc42.org/section-8/
+
+    Principal regulations and solution ideas that are relevant in multiple parts of the system, such as:
+    - Domain Models
+    - Architectural patterns or design patterns
+    - Rules for using specific technology
+    - Implementation rules
+
+    Suggested structure
+    - Domain concepts
+    - User Experience concepts (UX)
+    - Safety and security concepts
+    - Architecture and design patterns
+    - “Under-the-hood” concepts
+    - Development concepts
+    - Operational concepts
+
+    Examples:
+    - Within a system, a common format for log-messages shall be established, combined with a common convention of choosing the appropriate log-destination. These decisions, along with implementation examples, could be described as “logging-concept”.
+    - A system has numerous backend services, that communicate among each other based upon remote procedure calls or http-based REST. Calling services (“consumers”) always need to authenticate themselves to the called service (“provider”). For this authentication, a central common authorization service has to be used. The technical and organizational details such authentication could be described as “backend authentication concept”.
+    - https://docs.arc42.org/examples/concept-htmlsc-1/
+    - https://docs.arc42.org/examples/concept-htmlsc-2/
+    - https://docs.arc42.org/examples/concept-tpu-1/
+    - https://docs.arc42.org/examples/concept-tpu-2/
+-->
 
 
 # Architecture Decisions
+<!-- 
+    https://docs.arc42.org/section-9/
+
+    - Important architecture decisions including rationailes. 
+    - We can include links to ./ADRs here
+    - Order by importants, date, or something else
+
+    Examples:
+    - https://docs.arc42.org/examples/decision-use-adrs/
+    - https://docs.arc42.org/examples/decision-htmlsc/
+    - https://docs.arc42.org/examples/decision-tpu-1/
+-->
 
 
 # Quality Requirements
+<!-- 
+    https://docs.arc42.org/section-10/ 
+
+    Make sure to include the high priority goals added in the introduction section
+-->
 
 ## Quality Tree
+<!-- 
+
+    - Table or tree of quality requirements with quality/evalutation scenarios
+    - ATAM format: https://en.wikipedia.org/wiki/Architecture_tradeoff_analysis_method
+    - Include links to the 'quality scenarios' section
+
+    Example:
+    - https://docs.arc42.org/examples/quality-tpu-1/
+-->
 
 ## Quality Scenarios
+<!--
+    - Explanations of quality requirements 
+    - Descrive what should happen when some stimulus occurs
+    - Usage scenarios
+        - the system's runtime reaction: efficiency  or peformance
+        - Eg the system reacts to a user's request in one second
+    - Change scenarios
+        - describe a modification of the system or its environment
+        - eg: requirements change (needing to change LLMs?)
+
+
+    Example:
+    - https://docs.arc42.org/examples/quality-htmlsc-2/
+-->
 
 
 # Risks and Technical Debts
+<!-- 
+    https://docs.arc42.org/section-11/
+
+    - Identified technical risks or debts ordered by priority
+    - Include suggested measures to minimize, mitigate, or avoid risks
+
+    Examples:
+    - https://docs.arc42.org/examples/risk-htmlsc-1/
+    - https://docs.arc42.org/examples/risk-tpu-1/
+-->
 
 
 # Glossary
+<!-- 
+    https://docs.arc42.org/section-12/
+
+    - Important domain and technical terms stakeholders use when discussing the system
+    - Table with term and definition columns
+
+    Example:
+    - https://docs.arc42.org/examples/glossary-1/
+-->
