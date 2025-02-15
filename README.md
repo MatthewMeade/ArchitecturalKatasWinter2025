@@ -22,11 +22,11 @@ Considering the rapid evolution of AI technologies and ecosystem, combined with 
 
 ## Team Members
 
-- **[Matthew Meade](#)**
-- **[Agustin Gomes](#)**
-- **[Vasileios Chroniadis](#)**
-- **[Bryte Henry](#)**
-- **[Tyrone Jones](#)**
+- [Matthew Meade](https://www.linkedin.com/in/matthewmeade/)
+- [Agustin Gomes](https://www.linkedin.com/in/agustingomes)
+- [Vasileios Chroniadis](https://www.linkedin.com/in/chronvas/)
+- [Bryte Henry](https://www.linkedin.com/in/bryte-h/)
+- [Tyrone Jones](https://www.linkedin.com/in/tyronefjones/)
 
 
 # Architecture Constraints
