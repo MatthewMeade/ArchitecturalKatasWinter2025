@@ -10,6 +10,16 @@ The Iterative Strategies Architects group is a team formed for participating in 
 
 Our mission is to help **Certifiable, Inc** scale sustainably its processes and operations to meet its increasing demand by presenting an architectural proposal that intends to optimize the different parts of the workflows by leveraging AI technologies and strategies with the ultimate goal of decreasing the required time for the certification process to be completed.
 
+## Team Members
+
+- [Matthew Meade](https://www.linkedin.com/in/matthewmeade/)
+- [Agustin Gomes](https://www.linkedin.com/in/agustingomes)
+- [Vasileios Chroniadis](https://www.linkedin.com/in/chronvas/)
+- [Bryte Henry](https://www.linkedin.com/in/bryte-h/)
+- [Tyrone Jones](https://www.linkedin.com/in/tyronefjones/)
+
+
+
 ## **Challenges**
 
 Considering the rapid evolution of AI technologies and ecosystem, combined with the nature of the LLM responses being non-deterministic, The sanitization of the information exchanged with the models remains one of the most challenging aspects of implementing AI technologies due to the natural language characteristics these systems possess, which poses the risk of returning irrelevant information for our context.
@@ -19,15 +29,6 @@ Considering the rapid evolution of AI technologies and ecosystem, combined with 
 
 
 ## Quality Goals
-
-## Team Members
-
-- [Matthew Meade](https://www.linkedin.com/in/matthewmeade/)
-- [Agustin Gomes](https://www.linkedin.com/in/agustingomes)
-- [Vasileios Chroniadis](https://www.linkedin.com/in/chronvas/)
-- [Bryte Henry](https://www.linkedin.com/in/bryte-h/)
-- [Tyrone Jones](https://www.linkedin.com/in/tyronefjones/)
-
 
 # Architecture Constraints
 
