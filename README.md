@@ -69,7 +69,7 @@ Accurate AI Resposnes
 The top quality goals for the architecture
 
 1. Costs of running the new AI system
-2. Scalability, the system handle the 5-10x growth in users along with the 21% yearly growth
+2. Scalability, the system handle the 5-10x growth in global users along with the 21% yearly growth
 3. Maintaining the accuracy and integrity of the exams
 
 
