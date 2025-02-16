@@ -102,6 +102,8 @@ The top quality goals for the architecture
 
 -->
 
+<!-- High level overview of the solution, breaking the architecture itself down in the building blocks section -->
+
 ## AI Prelminary Grade Flow
 
 The overall strategy for adding AI to the existing architecture is to add an AI based preliminary grader system to the workflow for both the aptitude short answer questions and the architecture submissions. 
@@ -117,11 +119,31 @@ After: The ungraded responses are processed by the AI grader which populates the
 ![](./images/After-Preliminary%20Grader%20flow.png)
 
 
+### Test 1 - Short Answers
 
 
+### Test 2 - Architecture Solutions
 
+
+## Maintaining Test Integrity
+<!-- TODO: Talk about how humans have the final say in grading -->
+
+
+## AI Accuracy
+<!-- TODO: How we will get feedback from expert graders to improve the AI -->
+<!-- Comparing the AI's grade with the expert grader's final grade -->
+
+## Cost Management
+<!-- TODO -->
+
+## Metrics and Observability
+<!-- TODO -->
+
+## Data Privacy and propritary information
+<!-- TODO: Talk about how we will host our own models so we don't send data to third parties -->
 
 # Building Block View
+<!-- TODO: This is where we break down the architecture itself with detailed diagrams and descriptions -->
 <!-- 
     https://docs.arc42.org/section-5/
 
@@ -205,6 +227,10 @@ After: The ungraded responses are processed by the AI grader which populates the
     - https://docs.arc42.org/examples/concept-tpu-1/
     - https://docs.arc42.org/examples/concept-tpu-2/
 -->
+
+<!-- TODO: Prompt / RAG frameworks -->
+
+<!-- TODO: How we evaluate which model to use. Testing them against previous grades to determine how close the model is to the original expert grader  -->
 
 
 # Architecture Decisions
