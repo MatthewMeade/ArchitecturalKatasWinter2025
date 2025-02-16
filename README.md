@@ -92,16 +92,33 @@ The top quality goals for the architecture
 <!-- 
     https://docs.arc42.org/section-4/ 
     
-    - A short summary aof the fundamental decisions and soultion strategies that shape the system's architecture
+    - The fundamental decisions and soultion strategies that shape the system's architecture
     - Technology Decisions, design or architectural pattern, how to achieve quality goals, revelant org decisions and processes
-    - Table or list
-    - Link to later sections 5 or 8 for more details
+    - How we are addressing quality concertns (cost, saftey, etc)
     
     Examples
     - https://docs.arc42.org/examples/solution-strategy-htmlsc-1/
     - https://docs.arc42.org/examples/solution-strategy-mama-2/
 
 -->
+
+## AI Prelminary Grade Flow
+
+The overall strategy for adding AI to the existing architecture is to add an AI based preliminary grader system to the workflow for both the aptitude short answer questions and the architecture submissions. 
+
+The new preliminary graders will read from the ungraded response databases and populate a new preliminary grade DB, which will be used by the expert graders.
+
+Before: The manual grading stage read from the ungraded answers DB
+
+![](./images//Before-Preliminary%20Grader%20flow.png)
+
+After: The ungraded responses are processed by the AI grader which populates the preliminary grade DB for the manual grader to read from
+
+![](./images/After-Preliminary%20Grader%20flow.png)
+
+
+
+
 
 
 # Building Block View
