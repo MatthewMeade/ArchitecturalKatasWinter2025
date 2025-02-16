@@ -120,10 +120,12 @@ After: The ungraded responses are processed by the AI grader which populates the
 
 
 ### Test 1 - Short Answers
+<!-- TODO: Simple RAG. Adding the question, answer, grading criteria, etc. to the prompt -->
+<!-- Since we know what material is for which question we can retrieve context by the question number without needing complex intent analysis -->
 
 
 ### Test 2 - Architecture Solutions
-
+<!-- TODO:  -->
 
 ## Maintaining Test Integrity
 <!-- TODO: Talk about how humans have the final say in grading -->
@@ -137,7 +139,14 @@ After: The ungraded responses are processed by the AI grader which populates the
 <!-- TODO -->
 
 ## Metrics and Observability
-<!-- TODO -->
+<!-- TODO: The prompt orchestrator can include a component to track metrics -->
+
+### Cost metrics
+
+### Accuracy metrics
+
+### Performance metrics
+
 
 ## Data Privacy and propritary information
 <!-- TODO: Talk about how we will host our own models so we don't send data to third parties -->
