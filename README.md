@@ -205,40 +205,6 @@ The top quality goals for the architecture
 -->
 
 
-# Quality Requirements
-<!-- 
-    https://docs.arc42.org/section-10/ 
-
-    Make sure to include the high priority goals added in the introduction section
--->
-
-## Quality Tree
-<!-- 
-
-    - Table or tree of quality requirements with quality/evalutation scenarios
-    - ATAM format: https://en.wikipedia.org/wiki/Architecture_tradeoff_analysis_method
-    - Include links to the 'quality scenarios' section
-
-    Example:
-    - https://docs.arc42.org/examples/quality-tpu-1/
--->
-
-## Quality Scenarios
-<!--
-    - Explanations of quality requirements 
-    - Descrive what should happen when some stimulus occurs
-    - Usage scenarios
-        - the system's runtime reaction: efficiency  or peformance
-        - Eg the system reacts to a user's request in one second
-    - Change scenarios
-        - describe a modification of the system or its environment
-        - eg: requirements change (needing to change LLMs?)
-
-
-    Example:
-    - https://docs.arc42.org/examples/quality-htmlsc-2/
--->
-
 
 # Risks and Technical Debts
 <!-- 
