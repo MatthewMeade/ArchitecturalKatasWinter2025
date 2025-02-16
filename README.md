@@ -2,6 +2,16 @@
 
 The Iterative Strategies Architects group is a team formed for participating in Architectural Katas - Winter 2025
 
+
+## Team Members
+
+- [Matthew Meade](https://www.linkedin.com/in/matthewmeade/)
+- [Agustin Gomes](https://www.linkedin.com/in/agustingomes)
+- [Vasileios Chroniadis](https://www.linkedin.com/in/chronvas/)
+- [Bryte Henry](https://www.linkedin.com/in/bryte-h/)
+- [Tyrone Jones](https://www.linkedin.com/in/tyronefjones/)
+
+
 ---
 
 # Introduction and Goals
@@ -12,13 +22,6 @@ The Iterative Strategies Architects group is a team formed for participating in 
 
 Our mission is to help **Certifiable, Inc** scale sustainably its processes and operations to meet its increasing demand by presenting an architectural proposal that intends to optimize the different parts of the workflows by leveraging AI technologies and strategies with the ultimate goal of decreasing the required time for the certification process to be completed.
 
-## Team Members
-
-- [Matthew Meade](https://www.linkedin.com/in/matthewmeade/)
-- [Agustin Gomes](https://www.linkedin.com/in/agustingomes)
-- [Vasileios Chroniadis](https://www.linkedin.com/in/chronvas/)
-- [Bryte Henry](https://www.linkedin.com/in/bryte-h/)
-- [Tyrone Jones](https://www.linkedin.com/in/tyronefjones/)
 
 
 
