@@ -62,6 +62,8 @@ Considering the rapid evolution of AI technologies and ecosystem, combined with 
     - https://docs.arc42.org/examples/constraints-1/
 -->
 
+- The new Architecture must fit into the existing implementation
+
 
 # Context and Scope
 <!-- https://docs.arc42.org/section-3/ -->
@@ -209,8 +211,10 @@ Considering the rapid evolution of AI technologies and ecosystem, combined with 
 -->
 
 
-# Croscutting Concepts
+# Implementation Details
 <!-- 
+
+    Note: This is called "Crosscutting Concepts" by arc42, but I didn't think that was a good title for the section
 
     https://docs.arc42.org/section-8/
 
