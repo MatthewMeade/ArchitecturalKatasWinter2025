@@ -88,34 +88,6 @@ The top quality goals for the architecture
 - Maintaining a low cost is a high priority
 
 
-# Context and Scope
-<!-- https://docs.arc42.org/section-3/ -->
-
-## Business Context
-<!--
-    - The context of business stakeholder's point of view. What data is exchanged and the environment
-    - Diagrams shoing the system as a black box, specifying the interfaces with stakeholders
-    - Alternatively (or additionally) you can use a table. The title of the table is the name of your system, the three columns contain the name of the communication partner, the inputs, and the outputs.
-
-    Examples
-    - https://docs.arc42.org/examples/business-context-1/
-    - https://docs.arc42.org/examples/context-business-2/
-    - https://docs.arc42.org/examples/business-context-3/
-
--->
-
-## Technical Context
-<!-- 
-    - Technical interfaces linking the system to its environment, I/O
-    - Interactions with external services or hardware. An example for our project would be if we're interfacing with an external managed AI service?
-
-    Examples
-    - https://docs.arc42.org/examples/technical-context-1/
-    - https://docs.arc42.org/examples/technical-context-4/
-
--->
-
-
 # Solution Strategy
 <!-- 
     https://docs.arc42.org/section-4/ 
@@ -184,54 +156,6 @@ The top quality goals for the architecture
 
 
 <!-- ## Level n ... Not sure how deep we need to go, I'd assume 3 is enough -->
-
-
-
-# Runtime View
-<!-- 
-    https://docs.arc42.org/section-6/
-
-    - This section describes concrete behavior and interaction of the system's building blocks in the form of scenarios
-    - Important use cases or features, how they're executed
-    - Interactions at critical interfaces
-    - Operation and administration - launch, start, stop
-    - Error and exception scenarios
-
-    - Note: 
-        - The main criterion for the choice of possible scenarios (sequences, workflows) is their architectural relevancy. 
-        - It is not important to describe a large number of scenarios. You should rather document a representative selection.
-
-    - Possible scenario notations
-        - Numbered list of steps
-        - Activity diagrams or flow charts
-        - Sequence Diagrams
-        - BPMN or EPCs
-        - State Machines
-
-    Examples:
-    - https://docs.arc42.org/examples/runtime-1/
-    - https://docs.arc42.org/examples/runtime-mama-2/
-    - https://docs.arc42.org/examples/runtime-tpu-1/
--->
-
-
-# Deployment View
-<!-- 
-    https://docs.arc42.org/section-7/
-
-    (We don't have much detail on how the current system is deployed, so not sure how we would deal with that here)
-
-    - Technical infrastructure used to execute the system
-    - Elements like geographical locations, environments, hardware, channels, topoligies
-    - Mapping of what software runs on which infrastructure elements
-    - Can include any different environments, eg if we have prod and testing environments
-    - Only include the level of detail necessary
-
-    Example 1
-    - https://docs.arc42.org/examples/deployment-1/
-    - https://docs.arc42.org/examples/deployment-htmlsc-1/
-    - https://docs.arc42.org/examples/deployment-2/
--->
 
 
 # Implementation Details
