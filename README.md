@@ -50,6 +50,12 @@ Considering the rapid evolution of AI technologies and ecosystem, combined with 
     Example
     - https://docs.arc42.org/examples/quality-tpu-1/
 -->
+The top quality goals for the architecture
+
+1. Costs of running the new AI system
+2. Scalability, the system handle the 5-10x growth in users along with the 21% yearly growth
+3. Maintaining the accuracy and integrety of the exams
+
 
 
 # Architecture Constraints
@@ -63,6 +69,7 @@ Considering the rapid evolution of AI technologies and ecosystem, combined with 
 -->
 
 - The new Architecture must fit into the existing implementation
+- Maintaining a low cost is a high priority
 
 
 # Context and Scope
