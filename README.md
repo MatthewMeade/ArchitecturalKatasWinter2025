@@ -43,6 +43,19 @@ Considering the rapid evolution of AI technologies and ecosystem, combined with 
 
  -->
 
+The job to be done of adding AI to the existing architecture is to assist the expert graders by reducing the time it takes to grade an exam.
+
+Grading Aptitude Tests
+- The expert graders receive the question to be graded with a suggested score and justification
+
+Grading Architecture Solutions
+- The expert graders recieve a suggested grade and AI summary of the solution to assist in grading
+
+Accurate AI Resposnes
+- The AI should have access to the context it needs to grade answers accurately
+- The expert grader can override the AI response with a new grade if the AI is not accurate
+- When this happens it should be logged so the system can be tuned and optimized for correctness
+
 
 ## Quality Goals
 <!-- 
