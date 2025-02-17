@@ -135,7 +135,21 @@ of finding relevant context
 
 
 ### Test 2 - Architecture Solutions
-<!-- TODO:  -->
+![](./images/Test%202%20Architecture.png)
+
+Since grading the candidate's architecture solution is significantly more complex than the short answers, the Architecture Preliminary Grader service will include an Agent. 
+
+The service will be given the original case study, grading criteria, and the candidate's submission. 
+
+This includes the addition of a "Knowledge Base" database as a source domain specific information that can be used as context when grading the exam. 
+
+The AI agent will:
+- Determine what context it needs and retrieve it from the Knowledge Base
+- Prompt the model to perform grading
+- Determine if the grading criteria have been covered
+- If additional context is required, get that from the Knowledge Base and prompt the model again
+- Otherwise, send the grade and justification to the preliminary database for the human expert to grade
+
 
 ## Maintaining Test Integrity
 <!-- TODO: Talk about how humans have the final say in grading -->
