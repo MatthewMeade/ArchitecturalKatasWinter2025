@@ -49,9 +49,9 @@ Grading Aptitude Tests
 - The expert graders receive the question to be graded with a suggested score and justification
 
 Grading Architecture Solutions
-- The expert graders recieve a suggested grade and AI summary of the solution to assist in grading
+- The expert graders receive a suggested grade and AI summary of the solution to assist in grading
 
-Accurate AI Resposnes
+Accurate AI Responses
 - The AI should have access to the context it needs to grade answers accurately
 - The expert grader can override the AI response with a new grade if the AI is not accurate
 - When this happens it should be logged so the system can be tuned and optimized for correctness
@@ -60,7 +60,7 @@ Accurate AI Resposnes
 ## Quality Goals
 <!-- 
     - Top 3-5 quality goals for the architecture in a table
-    - Note: Goals for the artecture itself, not the product
+    - Note: Goals for the architecture itself, not the product
     - For example reliability, security, sustainability
 
     Example
@@ -92,9 +92,9 @@ The top quality goals for the architecture
 <!-- 
     https://docs.arc42.org/section-4/ 
     
-    - The fundamental decisions and soultion strategies that shape the system's architecture
-    - Technology Decisions, design or architectural pattern, how to achieve quality goals, revelant org decisions and processes
-    - How we are addressing quality concertns (cost, saftey, etc)
+    - The fundamental decisions and solution strategies that shape the system's architecture
+    - Technology Decisions, design or architectural pattern, how to achieve quality goals, relevant org decisions and processes
+    - How we are addressing quality concerns (cost, safety, etc)
     
     Examples
     - https://docs.arc42.org/examples/solution-strategy-htmlsc-1/
@@ -104,7 +104,7 @@ The top quality goals for the architecture
 
 <!-- High level overview of the solution, breaking the architecture itself down in the building blocks section -->
 
-## AI Prelminary Grade Flow
+## AI Preliminary Grade Flow
 
 The overall strategy for adding AI to the existing architecture is to add an AI based preliminary grader system to the workflow for both the aptitude short answer questions and the architecture submissions. 
 
@@ -172,7 +172,7 @@ The AI agent will:
 ### Performance metrics
 
 
-## Data Privacy and propritary information
+## Data Privacy and proprietary information
 <!-- TODO: Talk about how we will host our own models so we don't send data to third parties -->
 
 
@@ -216,9 +216,9 @@ The AI agent will:
 <!-- 
     https://docs.arc42.org/section-9/
 
-    - Important architecture decisions including rationailes. 
+    - Important architecture decisions including rationales. 
     - We can include links to ./ADRs here
-    - Order by importants, date, or something else
+    - Order by importance, date, or something else
 
     Examples:
     - https://docs.arc42.org/examples/decision-use-adrs/
