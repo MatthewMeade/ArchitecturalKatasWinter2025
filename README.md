@@ -127,8 +127,8 @@ After: The ungraded responses are processed by the AI grader which populates the
 The Preliminary Grader service will prompt the AI model through the gateway to generate a grade and justification.
 
 The service will use Retrieval Augmented Generation to provide additional context to the prompt
-- The original question along with any relevant grading criteria and infrormation
-- Relevant answers to the question that are considered correct
+- The original question along with any relevant grading criteria and information
+- Relevant answers to the question that are considered correct, with justifications
 
 Since the questions are known ahead of time, the data being retrieved can be indexed by question ID. This reduces the complexity 
 of finding relevant context
@@ -160,60 +160,6 @@ of finding relevant context
 
 ## Data Privacy and propritary information
 <!-- TODO: Talk about how we will host our own models so we don't send data to third parties -->
-
-# Building Block View
-<!-- TODO: This is where we break down the architecture itself with detailed diagrams and descriptions -->
-<!-- 
-    https://docs.arc42.org/section-5/
-
-    - The static decomposisition of the system as building blocks
-    - Modules, components, interfaces, dependencies with relationships and associations
-    - Hierarchial collection of diagrams and descriptions
-
-    Levels
-    - Level 1: white box description of the overall system together with black box descriptions of all contained building blocks.
-    - Level 2: zooms into some building blocks of level 1
-    - Level 3: zooms into some building blocks of level 2
-    - ...
-    - Level n: ...
-
-    Examples:
-    - (all levels) https://docs.arc42.org/examples/buildingblock-hsc/
-    - (level 1) https://docs.arc42.org/examples/buildingblock-tpu-1/
-    - (level 2) https://docs.arc42.org/examples/buildingblock-tpu-2/
--->
-
-## Overall System 
-<!-- 
-    https://docs.arc42.org/section-5/#51-whitebox-overall-system
-
-    - The decomposition of the overall system using the white box template
-    - An overview diagram
-    - A motivation for the decomposition
-    - Black box descriptions of the building blocks. A list or a table
-
-    Example
-    - https://docs.arc42.org/examples/buildingblock-tpu-1/
--->
-
-
-## Level 2
-<!-- 
-    - Specify the inner structure of some of the blocks from level 1
-    - Please prefer relevance over completeness. Specify only important, surprising, risky, complex or volatile building blocks. 
-
-    Example
-    - https://docs.arc42.org/examples/buildingblock-tpu-2/
--->
-
-## Level 3
-<!-- 
-    - Specify the inner structure of some of the blocks from level 2
-
--->
-
-
-<!-- ## Level n ... Not sure how deep we need to go, I'd assume 3 is enough -->
 
 
 # Implementation Details
