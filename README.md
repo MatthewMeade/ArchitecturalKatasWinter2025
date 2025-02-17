@@ -122,6 +122,16 @@ After: The ungraded responses are processed by the AI grader which populates the
 ### Test 1 - Short Answers
 <!-- TODO: Simple RAG. Adding the question, answer, grading criteria, etc. to the prompt -->
 <!-- Since we know what material is for which question we can retrieve context by the question number without needing complex intent analysis -->
+![](./images/Test%201%20Architecture.png)
+
+The Preliminary Grader service will prompt the AI model through the gateway to generate a grade and justification.
+
+The service will use Retrieval Augmented Generation to provide additional context to the prompt
+- The original question along with any relevant grading criteria and infrormation
+- Relevant answers to the question that are considered correct
+
+Since the questions are known ahead of time, the data being retrieved can be indexed by question ID. This reduces the complexity 
+of finding relevant context
 
 
 ### Test 2 - Architecture Solutions
