@@ -160,23 +160,15 @@ The database will consist of a document store containing all the documentation, 
 When the AI decides it requires more context on a subject based on the solution or grading criteria it finds the relevant information by providing a set of key terms.
 
 
-## Maintaining Test Integrity
-<!-- TODO: Talk about how humans have the final say in grading -->
-
-
-## AI Accuracy
-<!-- TODO: How we will get feedback from expert graders to improve the AI -->
-<!-- Comparing the AI's grade with the expert grader's final grade -->
-
-## Cost Management
-<!-- TODO -->
-
 ## Metrics and Observability
 <!-- TODO: The prompt orchestrator can include a component to track metrics -->
 
 ### Cost metrics
 
-### Accuracy metrics
+### AI Accuracy metrics
+<!-- TODO: How we will get feedback from expert graders to improve the AI -->
+<!-- Comparing the AI's grade with the expert grader's final grade -->
+
 
 ### Performance metrics
 
@@ -216,8 +208,13 @@ When the AI decides it requires more context on a subject based on the solution 
     - https://docs.arc42.org/examples/concept-tpu-2/
 -->
 
-<!-- TODO: Prompt / RAG frameworks -->
+## Prompt Frameworks
+<!-- TODO: Prompt / RAG / Agent frameworks -->
 
+## Maintaining Test Integrity
+<!-- TODO: Talk about how humans have the final say in grading -->
+
+## Validating AI models
 <!-- TODO: How we evaluate which model to use. Testing them against previous grades to determine how close the model is to the original expert grader  -->
 
 
