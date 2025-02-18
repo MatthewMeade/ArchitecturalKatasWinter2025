@@ -150,6 +150,15 @@ The AI agent will:
 - If additional context is required, get that from the Knowledge Base and prompt the model again
 - Otherwise, send the grade and justification to the preliminary database for the human expert to grade
 
+#### Knowledge Base
+
+This database will include a store of document managed by the company including all the relevant material required to grade the exam. Expert graders rely on advanced industry knowledge when grading
+submissions, this solution provides the same level of context to the AI grader.
+
+The database will consist of a document store containing all the documentation, indexed by key terms. 
+
+When the AI decides it requires more context on a subject based on the solution or grading criteria it finds the relevant information by providing a set of key terms.
+
 
 ## Maintaining Test Integrity
 <!-- TODO: Talk about how humans have the final say in grading -->
