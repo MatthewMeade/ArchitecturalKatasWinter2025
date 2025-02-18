@@ -175,8 +175,22 @@ To validate the AI grading system is working well, the service will compare the 
 often it will raise red flags that the prompts, model, or frameworks need to be updated. 
 
 
-## Data Privacy and proprietary information
-<!-- TODO: Talk about how we will host our own models so we don't send data to third parties -->
+## Deployment
+
+### AI Model Management
+The organization will manage deployment of the infrastructure running the AI model and assisting services in the existing cloud environment running the current architecture.
+
+The benefits of this include:
+- Data privacy: Proprietary company data and candidate information is not passed to a third party
+- Flexibility: Managing the model in-house prevents vendor lock in and doesn't limit design decisions what is available by model providers
+- Cost: The company pays for infrastructure but doesn't have to worry about API credits and usage limits
+
+
+### Global Infrastructure
+Since the software is being made available to candidates across the globe, the infrastructure should be expanded globally to ensure
+the test taking experience is smooth for all users.
+
+This may involve deploying copies of candidate facing services in many regions and deploying caches to store required data nearby.
 
 
 # Implementation Details
