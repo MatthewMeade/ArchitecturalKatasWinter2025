@@ -16,8 +16,6 @@ The Iterative Strategies Architects group is a team formed for participating in 
 
 # Introduction and Goals
 
-<!-- https://docs.arc42.org/section-1/ -->
-
 ## **Mission**
 
 Our mission is to help **Certifiable, Inc** scale sustainably its processes and operations to meet its increasing demand by presenting an architectural proposal that intends to optimize the different parts of the workflows by leveraging AI technologies and strategies with the ultimate goal of decreasing the required time for the certification process to be completed.
@@ -31,18 +29,6 @@ Considering the rapid evolution of AI technologies and ecosystem, combined with 
 
 
 ## Requirements Overview
-<!-- 
-    - Short description of the functional requirements
-    - From the point of view of the end users
-    - Short text description, possibly in a table. 
-    - Link to more detailed requirements documentation
-
-    Examples
-    - https://docs.arc42.org/examples/overview-example-htmlsc-1/
-    - https://docs.arc42.org/examples/overview-example-3/
-
- -->
-
 The job to be done of adding AI to the existing architecture is to assist the expert graders by reducing the time it takes to grade an exam.
 
 Grading Aptitude Tests
@@ -58,14 +44,6 @@ Accurate AI Responses
 
 
 ## Quality Goals
-<!-- 
-    - Top 3-5 quality goals for the architecture in a table
-    - Note: Goals for the architecture itself, not the product
-    - For example reliability, security, sustainability
-
-    Example
-    - https://docs.arc42.org/examples/quality-tpu-1/
--->
 The top quality goals for the architecture
 
 1. Costs of running the new AI system
@@ -75,34 +53,11 @@ The top quality goals for the architecture
 
 
 # Architecture Constraints
-<!-- 
-    https://docs.arc42.org/section-2/ 
-
-    - Any requirement that constrains the design and implementation, a simple list
-
-    Example: 
-    - https://docs.arc42.org/examples/constraints-1/
--->
-
 - The new Architecture must fit into the existing implementation
 - Maintaining a low cost is a high priority
 
 
 # Solution Strategy
-<!-- 
-    https://docs.arc42.org/section-4/ 
-    
-    - The fundamental decisions and solution strategies that shape the system's architecture
-    - Technology Decisions, design or architectural pattern, how to achieve quality goals, relevant org decisions and processes
-    - How we are addressing quality concerns (cost, safety, etc)
-    
-    Examples
-    - https://docs.arc42.org/examples/solution-strategy-htmlsc-1/
-    - https://docs.arc42.org/examples/solution-strategy-mama-2/
-
--->
-
-<!-- High level overview of the solution, breaking the architecture itself down in the building blocks section -->
 
 ## AI Preliminary Grade Flow
 
@@ -120,8 +75,6 @@ After: The ungraded responses are processed by the AI grader which populates the
 
 
 ### Test 1 - Short Answers
-<!-- TODO: Simple RAG. Adding the question, answer, grading criteria, etc. to the prompt -->
-<!-- Since we know what material is for which question we can retrieve context by the question number without needing complex intent analysis -->
 ![](./images/Test%201%20Architecture.png)
 
 The Preliminary Grader service will prompt the AI model through the gateway to generate a grade and justification.
