@@ -115,6 +115,7 @@ When the AI decides it requires more context on a subject based on the solution 
 
 ## Metrics and Observability
 A metrics service will be responsible for observing the system's performance.
+
 ![](./images/Metrics%20Service.png)
 
 
