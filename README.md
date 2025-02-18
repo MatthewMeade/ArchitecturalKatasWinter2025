@@ -162,6 +162,7 @@ When the AI decides it requires more context on a subject based on the solution 
 
 ## Metrics and Observability
 <!-- TODO: The prompt orchestrator can include a component to track metrics -->
+![](./images/Metrics%20Service.png)
 
 ### Cost metrics
 
