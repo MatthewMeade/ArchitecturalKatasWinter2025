@@ -128,7 +128,7 @@ The Preliminary Grader service will prompt the AI model through the gateway to g
 
 The service will use Retrieval Augmented Generation to provide additional context to the prompt
 - The original question along with any relevant grading criteria and information
-- Relevant answers to the question that are considered correct, with justifications
+- Graded answers from other candidates, with justifications
 
 Since the questions are known ahead of time, the data being retrieved can be indexed by question ID. This reduces the complexity 
 of finding relevant context
