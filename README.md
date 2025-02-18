@@ -161,17 +161,18 @@ When the AI decides it requires more context on a subject based on the solution 
 
 
 ## Metrics and Observability
-<!-- TODO: The prompt orchestrator can include a component to track metrics -->
+A metrics service will be responsible for observing the system's performance.
 ![](./images/Metrics%20Service.png)
 
-### Cost metrics
+
+### Cost and Performance metrics
+
+The AI Model Gateway will generate metrics related to running all prompts, including information such as execution time and tokens used. 
+This data is saved into a metrics store, ideally the existing architecture's store that is already being used to collect other infrastructure metrics.
 
 ### AI Accuracy metrics
-<!-- TODO: How we will get feedback from expert graders to improve the AI -->
-<!-- Comparing the AI's grade with the expert grader's final grade -->
-
-
-### Performance metrics
+To validate the AI grading system is working well, the service will compare the preliminary AI grades to the expert grades. If the two are significantly different 
+often it will raise red flags that the prompts, model, or frameworks need to be updated. 
 
 
 ## Data Privacy and proprietary information
