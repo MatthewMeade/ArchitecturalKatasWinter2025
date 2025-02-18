@@ -147,35 +147,7 @@ This may involve deploying copies of candidate facing services in many regions a
 
 
 # Implementation Details
-<!-- 
-
-    Note: This is called "Crosscutting Concepts" by arc42, but I didn't think that was a good title for the section
-
-    https://docs.arc42.org/section-8/
-
-    Principal regulations and solution ideas that are relevant in multiple parts of the system, such as:
-    - Domain Models
-    - Architectural patterns or design patterns
-    - Rules for using specific technology
-    - Implementation rules
-
-    Suggested structure
-    - Domain concepts
-    - User Experience concepts (UX)
-    - Safety and security concepts
-    - Architecture and design patterns
-    - “Under-the-hood” concepts
-    - Development concepts
-    - Operational concepts
-
-    Examples:
-    - Within a system, a common format for log-messages shall be established, combined with a common convention of choosing the appropriate log-destination. These decisions, along with implementation examples, could be described as “logging-concept”.
-    - A system has numerous backend services, that communicate among each other based upon remote procedure calls or http-based REST. Calling services (“consumers”) always need to authenticate themselves to the called service (“provider”). For this authentication, a central common authorization service has to be used. The technical and organizational details such authentication could be described as “backend authentication concept”.
-    - https://docs.arc42.org/examples/concept-htmlsc-1/
-    - https://docs.arc42.org/examples/concept-htmlsc-2/
-    - https://docs.arc42.org/examples/concept-tpu-1/
-    - https://docs.arc42.org/examples/concept-tpu-2/
--->
+<!-- This section covers important implementation details not directly related to the infrastructure (an optional deliverable) -->
 
 ## Prompt Frameworks
 <!-- TODO: Prompt / RAG / Agent frameworks -->
@@ -188,15 +160,4 @@ This may involve deploying copies of candidate facing services in many regions a
 
 
 # Architecture Decisions
-<!-- 
-    https://docs.arc42.org/section-9/
-
-    - Important architecture decisions including rationales. 
-    - We can include links to ./ADRs here
-    - Order by importance, date, or something else
-
-    Examples:
-    - https://docs.arc42.org/examples/decision-use-adrs/
-    - https://docs.arc42.org/examples/decision-htmlsc/
-    - https://docs.arc42.org/examples/decision-tpu-1/
--->
+<!-- TODO: Add remaining ADRs and link to them here -->
