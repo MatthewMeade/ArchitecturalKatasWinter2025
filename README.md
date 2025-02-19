@@ -79,7 +79,7 @@ After: The ungraded responses are processed by the AI grader which populates the
 
 The Preliminary Grader service will prompt the AI model through the gateway to generate a grade and justification.
 
-The service will use Retrieval Augmented Generation to provide additional context to the prompt
+The service will use Retrieval Augmented Generation (RAG) to provide additional context to the prompt
 - The original question along with any relevant grading criteria and information
 - Graded answers from other candidates, with justifications
 
