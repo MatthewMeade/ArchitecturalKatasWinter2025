@@ -148,10 +148,18 @@ This may involve deploying copies of candidate facing services in many regions a
 
 
 # Implementation Details
-<!-- This section covers important implementation details not directly related to the infrastructure (an optional deliverable) -->
 
 ## Cost Efficiency
-<!-- Talk about how to calculate if the system is saving money by reducing expert grading time -->
+For the new architecture to be viable, it should save more in expert hours than it costs to run. To validate this the organization will compare the 
+amount of time it takes to grade exams before and after the new AI architecture. 
+
+Currently it takes an expert `11` hours total to grade a single candidate's submissions for test 1 and 2. At `$50`/hour the cost to grade an exam is `$550` (assuming the candidate
+passes test 1 and submits test 2). 
+
+At `200` candidates per week the total cost for expert grading is `$110,000`/week. This becomes `$250,000` or `$500,000` per week after a 5x or 10x increase in candidates respectively.
+
+At the 10x scale, every `1 hour` reduction in grading time saves `$100,000`/week in expert costs. 
+
 
 ## Prompt Frameworks
 <!-- TODO: Prompt / RAG / Agent frameworks -->
