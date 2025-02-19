@@ -150,15 +150,21 @@ This may involve deploying copies of candidate facing services in many regions a
 # Implementation Details
 <!-- This section covers important implementation details not directly related to the infrastructure (an optional deliverable) -->
 
+## Cost Efficiency
+<!-- Talk about how to calculate if the system is saving money by reducing expert grading time -->
+
 ## Prompt Frameworks
 <!-- TODO: Prompt / RAG / Agent frameworks -->
 
 ## Maintaining Test Integrity
-<!-- TODO: Talk about how humans have the final say in grading -->
+<!-- TODO: Talk about how humans have the final say in grading, including security -->
 
 ## Validating AI models
 <!-- TODO: How we evaluate which model to use. Testing them against previous grades to determine how close the model is to the original expert grader  -->
 
+
+### Keeping the AI up to date
+<!-- How to keep the material in the database up to date. Update knowledge base and remove old questions from context? -->
 
 # Architecture Decisions
 <!-- TODO: Add remaining ADRs and link to them here -->
