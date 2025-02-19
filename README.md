@@ -189,4 +189,5 @@ Since the system uses RAG and agent patterns, it can retrieve relevant context a
 When architecture standards change, updating the relevant questions and documentation will ensure the model is working with the most up to date data possible.
 
 # Architecture Decisions
-<!-- TODO: Add remaining ADRs and link to them here -->
+- [Safely using candidate submissions in context for other candidates](./ADRs/ADR001/ADR001.md)
+- [Providing context to the model using RAG](./ADRs/ADR002/ADR002.md)
