@@ -168,8 +168,13 @@ At the 10x scale, every `1 hour` reduction in grading time saves `$100,000`/week
 <!-- TODO: Talk about how humans have the final say in grading, including security -->
 
 ## Validating AI models
-<!-- TODO: How we evaluate which model to use. Testing them against previous grades to determine how close the model is to the original expert grader  -->
+During the initial implementation the organization can leverage the existing data to create tests to evaluate potential AI models and frameworks.
 
+- Set up a test environment that reads from past candidate submissions
+- Compare the output to the expert's grade
+- Tweak the model, prompts, etc until the output is sufficiently close to the expert grade
+
+In production the same metrics are used to ensure the AI stays aligned with the exports. See [AI Accuracy metrics](#ai-accuracy-metrics)
 
 ### Keeping the AI up to date
 <!-- How to keep the material in the database up to date. Update knowledge base and remove old questions from context? -->
