@@ -67,15 +67,15 @@ The new preliminary graders will read from the ungraded response databases and p
 
 Before: The manual grading stage read from the ungraded answers DB
 
-![](./images//Before-Preliminary%20Grader%20flow.png)
+![](./images/before-preliminary-grader-flow.png)
 
 After: The ungraded responses are processed by the AI grader which populates the preliminary grade DB for the manual grader to read from
 
-![](./images/After-Preliminary%20Grader%20flow.png)
+![](./images/after-preliminary-grader-flow.png)
 
 
 ### Test 1 - Short Answers
-![](./images/Test%201%20Architecture.png)
+![](./images/test-1-architecture.png)
 
 The Preliminary Grader service will prompt the AI model through the gateway to generate a grade and justification.
 
@@ -88,7 +88,7 @@ of finding relevant context
 
 
 ### Test 2 - Architecture Solutions
-![](./images/Test%202%20Architecture.png)
+![](./images/test-2-architecture.png)
 
 Since grading the candidate's architecture solution is significantly more complex than the short answers, the Architecture Preliminary Grader service will include an Agent. 
 
@@ -116,7 +116,7 @@ When the AI decides it requires more context on a subject based on the solution 
 ## Metrics and Observability
 A metrics service will be responsible for observing the system's performance.
 
-![](./images/Metrics%20Service.png)
+![](./images/metrics-service.png)
 
 
 ### Cost and Performance metrics
