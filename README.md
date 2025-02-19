@@ -191,3 +191,9 @@ When architecture standards change, updating the relevant questions and document
 # Architecture Decisions
 - [Safely using candidate submissions in context for other candidates](./ADRs/ADR001/ADR001.md)
 - [Providing context to the model using RAG](./ADRs/ADR002/ADR002.md)
+- [Test 1 Architecture](./ADRs/ADR003/ADR003.md)
+- [Architecture Submission Architecture](./ADRs/ADR004/ADR004.md)
+- [Metrics Architecture]()
+- [Managed AI Model vs Self Managed]()
+- [Model requirements for Architecture Submission grading]()
+- [What part of the Architecture would benefit from AI]()
