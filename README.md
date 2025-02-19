@@ -177,7 +177,14 @@ During the initial implementation the organization can leverage the existing dat
 In production the same metrics are used to ensure the AI stays aligned with the exports. See [AI Accuracy metrics](#ai-accuracy-metrics)
 
 ### Keeping the AI up to date
-<!-- How to keep the material in the database up to date. Update knowledge base and remove old questions from context? -->
+
+#### Updating the model
+As model capabilities improve over time, the architecture supports swapping models seamlessly. Upgrading over time ensures the best performance possible. 
+
+#### Architecture Knowledge
+Since the system uses RAG and agent patterns, it can retrieve relevant context as needed without needing to make the information into the model itself. 
+
+When architecture standards change, updating the relevant questions and documentation will ensure the model is working with the most up to date data possible.
 
 # Architecture Decisions
 <!-- TODO: Add remaining ADRs and link to them here -->
