@@ -167,7 +167,7 @@ To ensure efficient and effective communication with the AI models, we will leve
 ## Maintaining Test Integrity
 Expert graders will have full control over the final grade and justification text, they will accept the AI result if appropriate and override it if there are any inaccuracies. 
 
-This protects the system from hallucinations and malicious candidates trying to cheat through prompt injection.
+This protects the system from hallucinations and malicious candidates trying to cheat through prompt injection. Any malicious submissions will be excluded from being used in any prompt contexts.
 
 ## Validating AI models
 During the initial implementation the organization can leverage the existing data to create tests to evaluate potential AI models and frameworks.
