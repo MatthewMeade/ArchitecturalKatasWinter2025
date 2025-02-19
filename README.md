@@ -201,4 +201,4 @@ When architecture standards change, updating the relevant questions and document
 - [Metrics Architecture](./ADRs/ADR005/ADR005.md)
 - [Managed AI Model vs Self Managed](./ADRs/ADR006/ADR006.md)
 - [Model requirements for Architecture Submission grading](./ADRs/ADR007/ADR007.md)
-- [What part of the Architecture would benefit from AI]()
+- [What part of the Architecture would benefit from AI](./ADRs/ADR008/ADR008.md)
