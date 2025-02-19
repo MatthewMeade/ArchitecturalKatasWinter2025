@@ -194,11 +194,11 @@ Since the system uses RAG and agent patterns, it can retrieve relevant context a
 When architecture standards change, updating the relevant questions and documentation will ensure the model is working with the most up to date data possible.
 
 # Architecture Decisions
-- [Safely using candidate submissions in context for other candidates](./ADRs/ADR001/ADR001.md)
-- [Providing context to the model using RAG](./ADRs/ADR002/ADR002.md)
-- [Test 1 Architecture](./ADRs/ADR003/ADR003.md)
-- [Architecture Submission Architecture](./ADRs/ADR004/ADR004.md)
-- [Metrics Architecture](./ADRs/ADR005/ADR005.md)
+- [What part of the Architecture would benefit from AI](./ADRs/ADR008/ADR008.md)
 - [Managed AI Model vs Self Managed](./ADRs/ADR006/ADR006.md)
 - [Model requirements for Architecture Submission grading](./ADRs/ADR007/ADR007.md)
-- [What part of the Architecture would benefit from AI](./ADRs/ADR008/ADR008.md)
+- [Test 1 Architecture](./ADRs/ADR003/ADR003.md)
+- [Architecture Submission Architecture](./ADRs/ADR004/ADR004.md)
+- [Providing context to the model using RAG](./ADRs/ADR002/ADR002.md)
+- [Safely using candidate submissions in context for other candidates](./ADRs/ADR001/ADR001.md)
+- [Metrics Architecture](./ADRs/ADR005/ADR005.md)
