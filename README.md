@@ -165,7 +165,9 @@ At the 10x scale, every `1 hour` reduction in grading time saves `$100,000`/week
 <!-- TODO: Prompt / RAG / Agent frameworks -->
 
 ## Maintaining Test Integrity
-<!-- TODO: Talk about how humans have the final say in grading, including security -->
+Expert graders will have full control over the final grade and justification text, they will accept the AI result if appropriate and override it if there are any inaccuracies. 
+
+This protects the system from hallucinations and malicious candidates trying to cheat through prompt injection.
 
 ## Validating AI models
 During the initial implementation the organization can leverage the existing data to create tests to evaluate potential AI models and frameworks.
