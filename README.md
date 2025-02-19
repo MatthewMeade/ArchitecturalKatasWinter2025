@@ -181,6 +181,8 @@ During the initial implementation the organization can leverage the existing dat
 
 In production the same metrics are used to ensure the AI stays aligned with the exports. See [AI Accuracy metrics](#ai-accuracy-metrics)
 
+Note: The submissions for test 2 may include images such as charts and diagrams, so the model should be multi-modal to support interpreting graphics. 
+
 ### Keeping the AI up to date
 
 #### Updating the model
@@ -198,5 +200,5 @@ When architecture standards change, updating the relevant questions and document
 - [Architecture Submission Architecture](./ADRs/ADR004/ADR004.md)
 - [Metrics Architecture](./ADRs/ADR005/ADR005.md)
 - [Managed AI Model vs Self Managed](./ADRs/ADR006/ADR006.md)
-- [Model requirements for Architecture Submission grading]()
+- [Model requirements for Architecture Submission grading](./ADRs/ADR007/ADR007.md)
 - [What part of the Architecture would benefit from AI]()
