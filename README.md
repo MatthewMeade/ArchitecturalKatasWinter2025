@@ -162,7 +162,7 @@ At the 10x scale, every `1 hour` reduction in grading time saves `$100,000`/week
 
 
 ## Prompt Frameworks
-<!-- TODO: Prompt / RAG / Agent frameworks -->
+To ensure efficient and effective communication with the AI models, we will leverage established prompt engineering techniques and frameworks. These frameworks provide structure and best practices for crafting prompts that elicit the desired responses from LLMs, while also managing context and minimizing potential issues.
 
 ## Maintaining Test Integrity
 Expert graders will have full control over the final grade and justification text, they will accept the AI result if appropriate and override it if there are any inaccuracies. 
