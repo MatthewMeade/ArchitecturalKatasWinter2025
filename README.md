@@ -140,6 +140,9 @@ The benefits of this include:
 - Cost: The company pays for infrastructure but doesn't have to worry about API credits and usage limits
 
 
+### Scalability
+Multiple instances of the AI grading services, gateway, and model can be deployed to process grading in parallel. This will scale on-demand with the number of submissions waiting to be graded.
+
 ### Global Infrastructure
 Since the software is being made available to candidates across the globe, the infrastructure should be expanded globally to ensure
 the test taking experience is smooth for all users.
